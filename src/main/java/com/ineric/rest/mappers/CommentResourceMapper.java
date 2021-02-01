@@ -1,7 +1,7 @@
 package com.ineric.rest.mappers;
 
-import com.ineric.models.Comment;
-import com.ineric.models.CommentNotification;
+import com.ineric.services.models.Comment;
+import com.ineric.services.models.CommentNotification;
 import com.ineric.rest.resources.request.CommentRequest;
 import com.ineric.rest.resources.response.CommentNotificationResponse;
 import com.ineric.rest.resources.response.CommentResponse;

@@ -1,4 +1,4 @@
-package com.ineric.models;
+package com.ineric.services.models;
 
 import java.time.LocalDateTime;
 

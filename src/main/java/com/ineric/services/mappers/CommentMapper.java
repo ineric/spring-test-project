@@ -1,9 +1,9 @@
-package com.ineric.mappers;
+package com.ineric.services.mappers;
 
 import com.ineric.repository.entities.CommentEntity;
 import com.ineric.repository.entities.CommentNotificationEntity;
-import com.ineric.models.Comment;
-import com.ineric.models.CommentNotification;
+import com.ineric.services.models.Comment;
+import com.ineric.services.models.CommentNotification;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

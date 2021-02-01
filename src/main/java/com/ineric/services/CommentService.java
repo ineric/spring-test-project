@@ -1,7 +1,7 @@
-package com.ineric;
+package com.ineric.services;
 
-import com.ineric.models.Comment;
-import com.ineric.models.CommentNotification;
+import com.ineric.services.models.Comment;
+import com.ineric.services.models.CommentNotification;
 
 import javax.validation.constraints.NotNull;
 import java.util.List;

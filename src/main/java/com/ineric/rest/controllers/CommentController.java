@@ -1,7 +1,7 @@
 package com.ineric.rest.controllers;
 
 import com.ineric.facade.ProcessingCommentFacade;
-import com.ineric.CommentService;
+import com.ineric.services.CommentService;
 import com.ineric.rest.resources.request.CommentRequest;
 import com.ineric.rest.resources.response.CommentNotificationResponse;
 import com.ineric.rest.resources.response.CommentResponse;

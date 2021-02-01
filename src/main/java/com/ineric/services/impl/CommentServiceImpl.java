@@ -1,17 +1,17 @@
-package com.ineric.impl;
+package com.ineric.services.impl;
 
 import com.ineric.exceptions.ExternalLogiсException;
 import com.ineric.exceptions.NotFoundException;
-import com.ineric.mappers.CommentMapper;
-import com.ineric.models.Comment;
-import com.ineric.models.CommentNotification;
+import com.ineric.services.mappers.CommentMapper;
+import com.ineric.services.models.Comment;
+import com.ineric.services.models.CommentNotification;
 import com.ineric.repository.CommentNotificationRepository;
 import com.ineric.configuration.Constants;
 import com.ineric.external_logic.BusinessLogic;
 import com.ineric.repository.CommentRepository;
 import com.ineric.repository.entities.CommentEntity;
 import com.ineric.repository.entities.CommentNotificationEntity;
-import com.ineric.CommentService;
+import com.ineric.services.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
